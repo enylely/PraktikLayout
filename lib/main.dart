@@ -17,21 +17,23 @@ class MyApp extends StatelessWidget {
             body: const SingleChildScrollView(
               child: Column(children: [
                 ImageSection(
-                  image: 'images/lake.jpg',
+                  image: 'images/BandaNaira.jpg',
                 ),
                 TitleSection(
-                    name: 'Oeschinen Lake Campground',
-                    location: 'Kandersteg, Switzerland'),
+                    name: 'Banda Naira',
+                    location: 'Maluku, Indonesia'),
                 ButtonSection(),
                 TextSection(
                   description:
-                      'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-                      'Bernese Alps. Situated 1,578 meters above sea level, it '
-                      'is one of the larger Alpine Lakes. A gondola ride from '
-                      'Kandersteg, followed by a half-hour walk through pastures '
-                      'and pine forest, leads you to the lake, which warms to 20 '
-                      'degrees Celsius in the summer. Activities enjoyed here '
-                      'include rowing, and riding the summer toboggan run.',
+                      'Banda Neira atau Banda Naira adalah salah satu pulau '
+                      'di Kepulauan Banda, dan merupakan pusat administratif' 
+                      'Kecamatan Banda, Kabupaten Maluku Tengah, Provinsi Maluku,'
+                      'Indonesia. Secara administratif, Banda Neira terbagi dalam'
+                      '6 desa, yakni Dwiwarna, Kampung Baru, Merdeka, Nusantara,'
+                      'Rajawali, dan Tanah Rata.Banda Neira pernah menjadi pusat'
+                      'perdagangan pala dan fuli dunia, karena Kep. Banda adalah'
+                      'satu-satunya sumber rempah-rempah yang bernilai tinggi'
+                      'hingga pertengahan abad ke-19.'
                 )
               ]),
             )));
